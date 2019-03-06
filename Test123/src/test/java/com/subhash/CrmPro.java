@@ -36,6 +36,8 @@ public class CrmPro {
 		
 		String title=driver.getTitle();
 		System.out.println(title);
+		
+		
 	}
 	
 	@Test
@@ -43,6 +45,7 @@ public class CrmPro {
 	{
 	  WebElement usename= driver.findElement(By.xpath("//input[contains(@name,'user')]"));
 	  usename.sendKeys("subhashautomation");
+	      
 	  
 	  WebElement password=driver.findElement(By.xpath("//input[contains(@name,'pass')]"));
 	  password.sendKeys("subhash081927");
